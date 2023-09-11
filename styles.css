@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.top {
+  background-image: url("./asset/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  text-decoration-color: #6d3535;
+  transition: 1s;
+  cursor: pointer;
+  color: #0087e5;
+}
+
+.nav-item {
+  list-style: none;
+  color: #121418;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding: 12px 25px;
+  position: relative;
+  display: fixed;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 7rem;
+}
+
+a > img {
+  border-radius: 50%;
+  margin-right: 12rem;
+  margin-left: 1.5rem;
+}
+
+.top {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.image > img {
+  padding: 3rem 3rem;
+  flex-basis: 50%;
+  margin-left: 3rem;
+}
+
+.words {
+  padding: 2rem 2rem;
+  font-family: "Poppins", sans-serif;
+  /* flex-basis: 50%; */
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.btntop {
+  background-color: #0087e5;
+  color: white;
+  border-radius: 5rem;
+  margin-top: 2rem;
+  font-size: large;
+  padding: 0.7rem 3rem;
+}
+
+.btntop:hover {
+  cursor: pointer;
+  background-color: #001437;
+}
+
+.footer {
+  color: #f4f1f7;
+  font-weight: 300;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.words > h1 {
+  font-family: "Asap Condensed", sans-serif;
+  font-size: 3rem;
+  color: #0087e5;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+.release {
+  justify-content: center;
+  display: flex;
+  background-color: #f4f1f7;
+  color: #0087e5;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Book information design */
+
+.info {
+  background-color: #f4f1f7;
+  overflow-x: hidden;
+}
+.footer{
+  max-width: 100% !important;
+}
+.author {
+  display: flex;
+  justify-content: center;
+}
+
+.authorimg {
+  flex-basis: 30%;
+  margin-left: 5rem;
+  padding: 2rem 2rem;
+}
+
+.autext {
+  flex-basis: 70%;
+  padding: 2rem 2rem;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: "Poppins", sans-serif;
+  margin-right: 5rem;
+}
+
+.book {
+  display: flex;
+  justify-content: center;
+}
+
+.btext {
+  flex-basis: 70%;
+  margin-left: 5rem;
+  padding: 2rem 2rem;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+}
+
+.bimage {
+  flex-basis: 30%;
+  padding: 3rem 2rem;
+}
+
+.support {
+  background-color: #001437;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.project {
+  flex-basis: 50%;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 3rem;
+  margin-top: 2rem auto;
+}
+.project > h1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Support Session */
+
+.project > p {
+  color: #f4f1f7;
+  padding: 3rem 3rem;
+}
+
+span {
+  color: #0087e5;
+}
+
+.form {
+  flex-basis: 50%;
+  border: none;
+  padding: 3rem 3rem;
+  text-align: left;
+}
+input, textarea {
+  background-color: #fff;
+  color: #001437 !important;
+  padding: 10px !important;
+  margin-bottom: 1rem;
+  width: 100%;
+  /* text-align: left; */
+}
+#p{
+  color: #b8b0b0;
+  font-size: 12px;
+}
+.email {
+  padding: 1rem 12.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.comment {
+  padding: 2rem 13rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.btn {
+  background-color: #0087e5;
+  color: #fff;
+}
+
+/* Contact */
+.contact {
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 3rem 3rem;
+  margin: 3rem 3rem;
+  gap: 7rem;
+  text-decoration: none;
+}
+
+.heading > h1,
+h2 {
+  color: #031638;
+  text-decoration: none;
+}
+
+h5 {
+  color: grey;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bottom > p {
+  justify-content: center;
+  text-align: center;
+}
+.sm-head{
+  display: none;
+}
+.btn:hover{
+  color: #fff !important;
+  background-color: transparent !important;
+  border: 1px solid #0087e5;
+}
+
+@media screen and (max-width: 768px) {
+  .body{
+    max-width: 100% !important;
+    overflow: hidden;
+  }
+  .nav-item{
+    background-color: #f1f4f7;
+    color: #041929 !important;
+
+}
+.nav-item:hover{
+  background-color: rgba(202, 228, 240, 0.3);
+  text-decoration: none;
+}
+
+  .top {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .lg-head{
+    display: none;
+  }
+  .sm-head{
+    display: block !important;
+    font-size: 26px !important;
+  }
+  p{
+    font-size: 18px;
+  }
+  .author {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .autext {
+  flex-basis: 100% !important;
+  padding: 2rem !important;
+  margin-right: 0 !important;
+  }
+  .input,.comment,.email {
+    padding-top: 1rem;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+  }
+  
+  .book {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column-reverse !important;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .support {
+    padding-top: 1rem;
+    flex-direction: column !important;
+    max-width: 100%;
+  }
+  .contact {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .details {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .footer {
+    width: 100vw;
+    padding: 0;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+  
+  }
+  .form{
+    margin-top: -5rem !important;
+  }
+  .project {
+  flex-basis: 100%;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 0 !important;
+}
+}
+
