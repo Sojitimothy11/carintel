@@ -61,7 +61,7 @@ a > img {
   text-justify: inter-word;
 }
 
-.btntop {
+btn {
   background-color: #0087e5;
   color: white;
   border-radius: 5rem;
@@ -70,7 +70,7 @@ a > img {
   padding: 0.7rem 3rem;
 }
 
-.btntop:hover {
+.btn:hover {
   cursor: pointer;
   background-color: #001437;
 }
