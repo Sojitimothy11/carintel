@@ -288,9 +288,11 @@ h5 {
 }
 
 @media screen and (max-width: 768px) {
-  .body {
-    max-width: 100% !important;
+  body {
+    width: 100% !important;
+    height: 100%;
     overflow: hidden;
+
   }
   .nav-item {
     background-color: #f1f4f7;
