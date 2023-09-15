@@ -52,7 +52,7 @@ a > img {
 
 .image > img {
   padding: 3rem 3rem;
-  flex-basis: 50%;
+  flex-basis: 40%;
   margin-left: 3rem;
 }
 
@@ -288,12 +288,6 @@ h5 {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    width: 100% !important;
-    height: 100%;
-    overflow: hidden;
-
-  }
   .nav-item {
     background-color: #f1f4f7;
     color: #041929 !important;
@@ -452,12 +446,12 @@ h5 {
   .image > img {
     display: flex;
     justify-content: center;
-    padding:0;
+    padding-right: 5px;
     margin: 0;
 }
   .content {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
   }
