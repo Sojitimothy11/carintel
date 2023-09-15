@@ -318,7 +318,7 @@ h5 {
   }
   .author {
     display: flex;
-    flex-direction: column !important;
+    flex-direction: column-reverse !important;
     justify-content: center;
     max-width: 100%;
   }
@@ -338,14 +338,16 @@ h5 {
   .authorimg {
     display: flex;
   justify-content: center;
-    align-content: center;
+  align-content: center;
+  margin-right: 5rem;
 }
   .book {
     display: flex;
-    flex-direction: column-reverse !important;
+    flex-direction: column !important;
     justify-content: center;
     max-width: 100%;
   }
+
   .btext {
     justify-content: center;
     text-align: justify;
@@ -378,7 +380,7 @@ h5 {
     margin: 0;
     justify-content: center;
     text-align: justify;
-    padding:auto;
+    padding:0 5px;
     
   }
   .phone > img {
