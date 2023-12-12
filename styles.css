@@ -51,7 +51,7 @@ a > img {
 }
 
 .image > img {
-  padding: 3rem 3rem;
+  padding: 2rem 3rem;
   flex-basis: 50%;
   margin-left: 3rem;
 }
