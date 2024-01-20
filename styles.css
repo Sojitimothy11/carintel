@@ -418,7 +418,6 @@ h5 {
     text-justify: inter-word;
   }
  
-  }
   .footer {
     display: flex;
     flex-direction: row !important;
@@ -472,5 +471,5 @@ h5 {
   .location > svg {
     width: 20px;
   }
-
 }
+
