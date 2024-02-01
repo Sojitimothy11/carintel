@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  width: 100%;
 }
 
 .top {
@@ -170,7 +171,7 @@ p {
 
 .project > p {
   color: #f4f1f7;
-  padding: 3rem 3rem;
+  
 }
 
 span {
@@ -191,6 +192,12 @@ textarea {
   margin-bottom: 1rem;
   width: 100%;
   /* text-align: left; */
+}
+
+.subtn{
+  width: 85px;
+  height:50px;
+  font-size: large;
 }
 #p {
   color: #b8b0b0;
@@ -285,6 +292,9 @@ h5 {
 }
 
 @media screen and (max-width: 768px) {
+  body{
+    width: 100%;
+  }
   .nav-item {
     background-color: #f1f4f7;
     color: #041929 !important;
